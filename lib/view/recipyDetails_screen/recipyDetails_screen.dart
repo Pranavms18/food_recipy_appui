@@ -120,26 +120,3 @@ class RecipeDetails extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-
- // SizedBox(
-              // height: 900,
-              // child: ListView.separated(
-              //   padding: EdgeInsets.all(8),
-              //   separatorBuilder: (context, index) => SizedBox(
-              //     height: 16,
-              //   ),
-              //   shrinkWrap: false,
-              //   itemCount: Details.IngridientList.length,
-              //   scrollDirection: Axis.vertical,
-              //   itemBuilder: (context, index) => IngridientSection(
-              //     gram: Details.IngridientList[index]["gram"],
-              //     image: Details.IngridientList[index]["image"],
-              //     name: Details.IngridientList[index]["name"],
-              //   ),
-              // ),
-            // ),

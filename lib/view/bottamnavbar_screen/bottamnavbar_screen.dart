@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:food_recipy_appui/utils/constants/color_constants.dart';
 import 'package:food_recipy_appui/view/bookmark_screen/bookmark_screen.dart';
 import 'package:food_recipy_appui/view/create_recipy_screen/create_recipy_screen.dart';
 import 'package:food_recipy_appui/view/home_screen/home_screen.dart';
+import 'package:food_recipy_appui/view/notifican_screen/notification_screen.dart';
+import 'package:food_recipy_appui/view/profile_screen/profile_screen.dart';
 
 class BottamnavbarScreen extends StatefulWidget {
   const BottamnavbarScreen({super.key});
@@ -15,12 +18,8 @@ class _BottamnavbarScreenState extends State<BottamnavbarScreen> {
   List screen = [
     HomeScreen(),
     Bookmarkscreen(),
-    Container(
-      color: Colors.blue,
-    ),
-    Container(
-      color: Colors.yellow,
-    ),
+    NotificationsScreen(),
+    ProfileScreen(),
   ];
   @override
   Widget build(BuildContext context) {
@@ -47,6 +46,10 @@ class _BottamnavbarScreenState extends State<BottamnavbarScreen> {
           ]),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
+        child: Icon(
+          Icons.add,
+          color: ColorConstants.mainWhite,
+        ),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(50),
         ),

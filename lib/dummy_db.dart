@@ -101,6 +101,76 @@ class DummyDb {
       "userName": "SmoothieKing"
     }
   ];
+  static List popularcreatorsList = [
+    {
+      "image":
+          "https://img.freepik.com/free-photo/portrait-pretty-blonde-woman-hat-posing_273443-2241.jpg?ga=GA1.2.1856332888.1723562925&semt=ais_hybrid",
+      "user": "Troyan smith",
+    },
+    {
+      "image":
+          "https://img.freepik.com/premium-photo/woman-floral-dress-sits-white-chair_1165863-9238.jpg?ga=GA1.2.1856332888.1723562925&semt=ais_hybrid",
+      "user": "James Wolden",
+    },
+    {
+      "image":
+          "https://img.freepik.com/free-photo/cute-young-girl-with-medium-wavy-hairstyle-modern-makeup-green-silk-dress-black-jacket-stylish-accessories-posing-daylight-street-looking-front_197531-24458.jpg?ga=GA1.2.1856332888.1723562925&semt=ais_hybrid",
+      "user": "Niki Samantha",
+    },
+    {
+      "image":
+          "https://img.freepik.com/free-photo/dreamy-ginger-girl-posing-with-closed-eyes-studio-shot-amazing-caucasian-woman-straw-hat-isolated-yellow-background_197531-17475.jpg?ga=GA1.2.1856332888.1723562925&semt=ais_hybrid",
+      "user": "Roberta Anny",
+    },
+    {
+      "image":
+          "https://img.freepik.com/premium-photo/woman-with-long-brown-hair-red-blue-sweater_92152-66305.jpg?ga=GA1.2.1856332888.1723562925&semt=ais_hybrid",
+      "user": "Priya Patel",
+    },
+    {
+      "image":
+          "https://img.freepik.com/premium-photo/female-models_1197721-28860.jpg?ga=GA1.2.1856332888.1723562925&semt=ais_hybrid",
+      "user": "Emily Johnson",
+    },
+  ];
+  static List recentRecipeList = [
+    {
+      "image":
+          "https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141353.jpg?ga=GA1.2.1856332888.1723562925&semt=ais_hybrid",
+      "title": "Indonesian Chicken Burger",
+      "user": "By Adrianna Curl",
+    },
+    {
+      "image":
+          "https://img.freepik.com/free-photo/top-view-bowls-with-indian-food_23-2148723454.jpg?ga=GA1.2.1856332888.1723562925&semt=ais_hybrid",
+      "title": "Vegan Tacos",
+      "user": "By Jordan Lee",
+    },
+    {
+      "image":
+          "https://img.freepik.com/premium-photo/grilled-chicken-skewers-with-rice-vegetables-served-black-plate-perfect-healthy-meal_1321417-6013.jpg?ga=GA1.2.1856332888.1723562925&semt=ais_hybrid",
+      "title": "Spaghetti Carbonara",
+      "user": "By Maria Gonzales",
+    },
+    {
+      "image":
+          "https://img.freepik.com/free-photo/side-view-rice-garnish-with-fried-onion-carrot-greens-chili-pepper-table_141793-5069.jpg?ga=GA1.2.1856332888.1723562925&semt=ais_hybrid",
+      "title": "Classic Beef Stroganoff",
+      "user": "By Liam Smith",
+    },
+    {
+      "image":
+          "https://img.freepik.com/premium-photo/delicious-spicy-chicken-biryani-bowl-moody-background_1106454-146505.jpg?ga=GA1.2.1856332888.1723562925&semt=ais_hybrid",
+      "title": "Thai Green Curry",
+      "user": "By Priya Patel",
+    },
+    {
+      "image":
+          "https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18809.jpg?ga=GA1.2.1856332888.1723562925&semt=ais_hybrid",
+      "title": "Lemon Drizzle Cake",
+      "user": "By Emily Johnson",
+    },
+  ];
 }
 
 class popularcatagery_card {

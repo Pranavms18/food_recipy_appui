@@ -44,7 +44,7 @@ class _BookmarkscreenState extends State<Bookmarkscreen> {
                               profileImage: DummyDb.trendingNowList[index]
                                   ["profileImage"],
                               userName: DummyDb.trendingNowList[index]
-                                  ["username"],
+                                  ["userName"],
                             ),
                           ));
                     },
@@ -54,13 +54,13 @@ class _BookmarkscreenState extends State<Bookmarkscreen> {
                     imageurl: DummyDb.trendingNowList[index]["imageurl"],
                     title: DummyDb.trendingNowList[index]["title"],
                     duration: DummyDb.trendingNowList[index]["duration"],
-                    userName: DummyDb.trendingNowList[index]["username"],
+                    userName: DummyDb.trendingNowList[index]["userName"],
                     width: double.infinity,
                   ),
               separatorBuilder: (context, index) => SizedBox(
                     height: 10,
                   ),
-              itemCount: 10)),
+              itemCount: DummyDb.trendingNowList.length)),
     );
   }
 }

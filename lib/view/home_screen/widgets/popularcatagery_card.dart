@@ -28,7 +28,7 @@ class PopularcatageryCard extends StatelessWidget {
             child: Container(
                 height: 180,
                 decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Color.fromARGB(255, 236, 234, 234),
                     borderRadius: BorderRadius.circular(10)),
                 child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
